@@ -23,3 +23,12 @@
     button:hover{
         background-color:#FFFFFF;
     }  
+    .container #minus{
+        padding-left: 65px;
+    }
+    #square {
+        margin: 0 0 0 20px;
+    }
+    #times{
+        margin-left: 15px;
+    }
