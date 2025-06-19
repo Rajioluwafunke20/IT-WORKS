@@ -9,6 +9,15 @@
         height: 80px;
         margin-bottom: 5px;
     }
+
+    img[src="images/standard2.png"]{
+        position: relative;
+        top: -2px;
+        width: 25px;
+        height: 25px;
+          filter: brightness(30%) contrast(120%);
+    }
+
     .zero{
         margin-left: 230px;
         font-size: 40px;
