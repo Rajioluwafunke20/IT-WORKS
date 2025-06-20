@@ -1,46 +1,49 @@
- .box{ 
-       width: 270px;
-       height: 450px;
-       background-color: white; 
-       border: 1px solid black;
-    }
-    .number{  
-        width: 290px;
-        height: 80px;
-        margin-bottom: 5px;
-    }
+.box {
+  width: 270px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid black;
+}
+.number {
+  width: 290px;
+  height: 80px;
+  margin-bottom: 5px;
+}
 
-    img[src="images/standard2.png"]{
-        position: relative;
-        top: -2px;
-        width: 25px;
-        height: 25px;
-          filter: brightness(30%) contrast(120%);
-    }
-    .input{
-        margin-top: -12px;
-    }
-
-    .zero{
-        margin-left: 230px;
-        font-size: 40px;
-    }
-    .box1{
-        width: 60px;
-        height: 40px;
-        border: 1px solid gray;
-        margin-bottom: 4px;
-        text-align: center;  
-    } 
-    button:hover{
-        background-color:#FFFFFF;
-    }  
-    .container #minus{
-        padding-left: 65px;
-    }
-    #square {
-        margin: 0 0 0 20px;
-    }
-    #times{
-        margin-left: 15px;
-    }
+img[src="images/standard2.png"] {
+  position: relative;
+  top: -2px;
+  width: 25px;
+  height: 25px;
+  filter: brightness(30%) contrast(120%);
+}
+.input {
+  margin-top: -12px;
+}
+.screen {
+  height: 75px;
+}
+.zero {
+  font-size: 20px;
+  word-wrap: break-word;
+  height: 100px;
+}
+.box1 {
+  width: 60px;
+  height: 40px;
+  border: 1px solid gray;
+  margin-bottom: 4px;
+  text-align: center;
+}
+button:hover {
+  background-color: #ffffff;
+}
+.container #minus {
+  padding-left: 65px;
+}
+#square {
+  margin: 0 0 0 20px;
+}
+#times {
+  margin-left: 15px;
+}
