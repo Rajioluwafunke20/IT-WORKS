@@ -17,6 +17,9 @@
         height: 25px;
           filter: brightness(30%) contrast(120%);
     }
+    .input{
+        margin-top: -12px;
+    }
 
     .zero{
         margin-left: 230px;
